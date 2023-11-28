@@ -34,6 +34,6 @@ services:
         ports:
             - 8000:80
         environment:
-            MYSQL_USER: root
+            MYSQL_USER: evpebe
             MYSQL_PASSWORD: root
             MYSQL_ROOT_PASSWORD: root
