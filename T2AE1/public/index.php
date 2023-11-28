@@ -8,7 +8,7 @@
             <?php
                 echo "<h1>EXAMEN Eva Perona</h1>";
 
-                $conn = mysqli_connect('database', 'root', 'root', "mamoro");
+                $conn = mysqli_connect('database', 'root', 'root', "evpebe");
                 $query = 'SELECT * FROM persona';
                 $result = mysqli_query($conn, $query);
 
